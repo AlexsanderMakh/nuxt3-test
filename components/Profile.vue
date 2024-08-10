@@ -39,7 +39,7 @@ onMounted(async () => {
 	profile.value = {
 	name: "Титова Елена Николаевна",
 	username: "username",
-	picture: "/images/default_picture.png", // Обратите внимание на путь
+	picture: "default_picture.png", // Обратите внимание на путь
 	socialLinks: [
 		{ url: "https://instagram.com/username", icon: "instagram" },
 		{ url: "https://vk.com/username", icon: "vk" },
