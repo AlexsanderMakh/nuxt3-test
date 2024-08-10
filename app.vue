@@ -21,6 +21,10 @@ import { faInstagram, faVk, faFacebook, faTwitter } from '@fortawesome/free-bran
 
 const isOpen = ref(false);
 
+// Функция для открытия попапа
+function openPopup() {
+  isOpen.value = true;
+}
 // Добавление иконок в библиотеку FontAwesome
 library.add(faInstagram, faVk, faFacebook, faTwitter);
 </script>

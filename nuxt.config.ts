@@ -2,10 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  router: {
-    base: '/nuxt3/',
-  },
   app: {
-    baseURL: '/nuxt3/',
-  },
-});
+    baseURL: '/nuxt3-test/',
+    buildAssetsDir: 'assets'
+  }
+})

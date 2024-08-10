@@ -44,7 +44,7 @@ onMounted(async () => {
 		{ url: "https://instagram.com/username", icon: "instagram" },
 		{ url: "https://vk.com/username", icon: "vk" },
 		{ url: "https://facebook.com/username", icon: "facebook" },
-		{ url: "https://x.com/username", icon: "X" },
+		{ url: "https://twitter.com/username", icon: "twitter" },
 	],
   };
 });
